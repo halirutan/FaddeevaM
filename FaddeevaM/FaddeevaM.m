@@ -42,7 +42,7 @@ $FadeevaLibraryPath = FileNameJoin[{DirectoryName[System`Private`$InputFileName]
 
 rebuild[] := Module[{sources},
   sources = FileNameJoin[{DirectoryName[System`Private`$InputFileName], "LibraryResources", "Source", #}] & /@
-  {"Faddeeva.c", "Faddeeva.h", "MMAFaddeeva.c"};
+  {"Faddeeva.c", "MMAFaddeeva.c"};
 
   Check[
     CreateLibrary[
