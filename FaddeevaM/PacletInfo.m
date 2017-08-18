@@ -7,5 +7,10 @@ Paclet[
   Name -> "FaddeevaM",
   Version -> "0.0.1",
   MathematicaVersion -> "10+",
-  Creator -> "Patrick Scheibe"
+  Description -> "Call Faddeeva functions from Mathematica.",
+  Creator -> "Patrick Scheibe",
+  URL -> "https://github.com/halirutan/FaddeevaM",
+  Extensions -> {
+    {"Application", Context -> "FaddeevaM`"}
+  }
 ]

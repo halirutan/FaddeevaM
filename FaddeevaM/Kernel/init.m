@@ -1,1 +1,1 @@
-Get["FaddeevaM`"];
+Get["FaddeevaM`FaddeevaM`"];
